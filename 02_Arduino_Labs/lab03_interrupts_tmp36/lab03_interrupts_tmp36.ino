@@ -47,7 +47,7 @@ void setup() {
 void loop() {
   
   // =========================================================
-  // ASKISI 1: RGB State Change me Interrupt [cite: 1044-1046]
+  // ASKISI 1: RGB State Change me Interrupt
   // =========================================================
   #if EXERCISE == 1
     
@@ -57,7 +57,7 @@ void loop() {
     analogWrite(bluePin, blueState);  
 
   // =========================================================
-  // ASKISI 2: TMP36 Sensor me millis() [cite: 1049-1056]
+  // ASKISI 2: TMP36 Sensor me millis()
   // =========================================================
   #elif EXERCISE == 2
     
