@@ -11,7 +11,7 @@
 
 // --- Koines Metavlites (Pins) ---
 
-// Gia to RGB LED (Askisi 1) [cite: 1083]
+// Gia to RGB LED (Askisi 1) 
 int redPin = 11;
 int greenPin = 10;
 int bluePin = 9;
@@ -39,7 +39,7 @@ void setup() {
 void loop() {
   
   // =========================================================
-  // ASKISI 1: RGB LED mesw Serial Monitor [cite: 1084, 1085]
+  // ASKISI 1: RGB LED mesw Serial Monitor 
   // =========================================================
   #if EXERCISE == 1
     
@@ -63,7 +63,7 @@ void loop() {
     }
 
   // =========================================================
-  // ASKISI 2: Aplo Blink me delay() [cite: 1087]
+  // ASKISI 2: Aplo Blink me delay() 
   // =========================================================
   #elif EXERCISE == 2
     
@@ -73,7 +73,7 @@ void loop() {
     delay(500); 
 
   // =========================================================
-  // ASKISI 3: Taytoxrono Blink dyo LED me millis() [cite: 1089]
+  // ASKISI 3: Taytoxrono Blink dyo LED me millis() 
   // =========================================================
   #elif EXERCISE == 3
     
